@@ -1,5 +1,5 @@
 :root {
-  --main-color: #ff0000;;
+  --main-color: #ff0000;
   --background: #1d1d1e;
   --secondary: #ff0000;
   --link: #ff0000;;
@@ -172,7 +172,7 @@ a {
   text-align: center;
   width: 100%;
   padding: 1em 0;
-  color: var(--text-color);
+  color: #ff0000;
   font-size: 1.15rem;
   font-weight: 400;
   border: none;
@@ -182,12 +182,12 @@ a {
 
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: var(--link);
+  color: #ff0000;
 }
 
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
-  color: var(--link);
+  color: #ff0000;
   border-right: 1px solid var(--link);
 }
 
